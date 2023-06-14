@@ -1,0 +1,1732 @@
+<!--bkoutstart-->
+<!DOCTYPE html><html>
+    <head>
+    <meta charset="utf-8">
+    <title>123</title>
+    <meta name="description" content="123">
+    <meta name="keywords" content="">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <link rel="stylesheet" href="./css/bt3.7.css?1">
+    <link rel="Stylesheet" type="text/css" href="./css/mycore.css?e13?31" />
+    <link rel="Stylesheet" type="text/css" href="./css/myatc.css?312?31" />
+    
+        <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+    
+    <script src="./js/lang.js?31"></script>
+    <script src="./js/jquery-1.11.3.min.js?31"></script>
+    
+     <style>
+        body{
+            margin:0px;
+            padding:0px;
+        }
+        .myiconfont{
+        	font-family: "iconfont" !important;
+			font-style: normal;
+			-webkit-font-smoothing: antialiased;
+			-moz-osx-font-smoothing: grayscale;
+        }
+        .std_title_one{
+            font-size:18px;
+        }
+        .std_btn{
+            border:1px solid #eee;
+            text-align:center;
+            height:50px;
+            line-height:50px;
+            border-radius:5px;
+            width:150px;
+            background-color:#333;
+            color:#fff;
+            cursor:pointer;
+        }
+        .pubbtnpdstd{
+            padding:15px 20px;
+        }
+        .pubbtnpdmid{
+            padding:20px 30px;
+        }
+        .pubbtnpdbig{
+            padding:25px 40px;
+        }
+        .margin-bottom15{
+        	margin-bottom:15px;
+        }
+        .pubftsz10{
+            font-size:10px;
+        }
+        .pubftsz14{
+            font-size:14px;
+        }
+        .pubftsz18{
+            font-size:18px;
+        }
+        .pubftsz22{
+            font-size:22px;
+        }
+        .pubftsz26{
+            font-size:26px;
+        }
+        .pubftsz30{
+            font-size:30px;
+        }
+        .pubftsz40{
+            font-size:40px;
+        }
+        .pubftsz50{
+            font-size:50px;
+        }
+        .pubftsz80{
+            font-size:80px;
+        }
+        .pubftsz100{
+            font-size:100px;
+        }
+        .pubbtnrd_no{
+            border-radius:0px;
+        }
+        .pubbtnrd_5{
+            border-radius:5px;
+        }
+        .pubbtnrd_10{
+            border-radius:10px;
+        }
+        .pubbtnrd_50{
+            border-radius:50px;
+        }
+        .pubpd0{
+            padding:0px;
+        }
+        .margin_auto{
+            margin:auto;
+        }
+        .topradius{
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+        }
+        .bottomradius{
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+        }
+        /** 公共css 可提取出去 自动限制宽高比的图片框  **/
+       
+         .myse_bdd{
+            border:1px solid rgb(0,0,0);
+        }
+        .boxtipsbditms{
+            border-top: 1px red dashed;
+            border-bottom: 1px red dashed;
+        }
+        .mybdlineintro{
+            background-color:#ececec;
+        }
+        .mybdlineintroflash{
+            background: #fff;
+        }
+        .myblockmenk{
+            opacity: 0.9;
+        }
+        .myse_sdb{
+            box-shadow: 3px 3px 20px rgba(0,0,0,0.28);
+        }
+       
+        h1,h2,h3,h4{
+            padding:10px 5px;
+            line-height:1.4;
+        }
+        p{
+        	padding-left:5px;
+        }
+        .my_sub_desp, p{
+        	font-size:15px;
+        	line-height:1.5;
+        }
+        .swiper-pagination-bullet-active{
+            background: rgb(0,0,0);
+        }
+        .swiper-button-next, .swiper-button-prev{
+            color:rgb(0,0,0);
+        }
+        .swiper-bottom-pad{
+            padding-bottom:40px;
+        }
+        #loader-1::before{
+            border: 2px solid transparent;
+            border-top-color: rgb(0,0,0);
+            border-top-width: 2px;
+        }  
+        .js-my-replace-txt img{
+      		max-width:100%;
+      	}
+      	.mytxttable td{
+      		padding:10px;
+      		border:1px solid #ddd;
+      	}
+      	.mytxttable{
+      		margin:10px 0;
+      	}
+    </style>
+    <style>
+.iconckbtbox {
+  width: 50px;
+  margin-top: 15px;
+  text-align: center;
+}
+.iconckbtbox svg path {
+  fill: none;
+  stroke-width: 8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  transition: all 0.4s;
+}
+.iconckbtbox.activecs svg path:nth-child(1){
+	d:path("M10, 5 L90,85");
+}
+.iconckbtbox.activecs svg path:nth-child(2){
+	opacity: 0;
+}
+.iconckbtbox.activecs svg path:nth-child(3){
+	d:path("M10, 85 L90,5");
+}
+    .js-my-replace-img,.js-my-replace-txt{
+        cursor:pointer;
+        word-break: break-all;
+    }
+    .btmgwgogo:hover{
+        font-weight:600;text-decoration:underline;
+    }
+    lhz{display:block;padding:0;margin:0}
+    .boxdivborder{
+        width:100%;
+        height:50px;
+        line-height:50px;
+        text-align:center;
+        background-color:#333;
+        color:#fff;
+    }
+    .myfullwidth img,.myfullimg{
+        width:100%;
+    }
+    .bgsize100{
+        background-size:100%;
+    }
+       .pubbtnrd_50p{
+            width:50px;
+            height:50px;
+            line-height:50px;
+            text-align:center;
+            border-radius:50%;
+            padding:0px;
+        }
+        .pubbtnrd_80p{
+        	width:80px;
+        	height:80px;
+        	line-height:80px;
+        	text-align:center;
+            border-radius:50%;
+            padding:0px;
+        }
+        .pubbtnrd_100p{
+        	width:100px;
+        	height:100px;
+        	line-height:100px;
+        	text-align:center;
+            border-radius:50%;
+            padding:0px;
+        }
+        .wt_bgcc, .cc_bgcc{
+            background-color:#fff;
+        }
+        .wt_ftcc{
+            color:#fff;
+        }
+        .bk_ftcc{
+            color:#000;
+        }
+        .gray_ftcc{
+            color:#eee;
+        }
+        .bk_bgcc{
+            background-color:#000;
+        }
+        .pubcc{
+            color:rgb(0,0,0) ; 
+        }
+        .pubbgcc{
+            background-color:rgb(0,0,0) ; 
+        }
+        .pubbdcc{
+            border-color:rgb(0,0,0) ; 
+        }
+        .stdpblock_one{
+            margin-top:15px;
+            line-height:20px;
+        }
+        .ctras_cc{
+            color:#fff;
+        }
+        .web_ftcc{
+            color:#fff;
+        }
+        .navboxcc .current{
+            background-color:rgb(0,0,0) ;
+            color:#fff;
+        }
+        .pubbtnbg{
+            background-color:rgb(0,0,0) ; 
+            border:none ; 
+            color:#fff;
+        }
+        .pubbtnwtbg{
+            background-color:#eee ; 
+            border:none ; 
+            color:#333;
+        }
+        .pubbtnline{
+            border-color:rgb(0,0,0) ; 
+            color:rgb(0,0,0);
+        }
+        .pubbtnline:hover{
+            background-color:rgb(0,0,0) ; 
+            border-color:#fff ; 
+            color:#fff;
+        } 
+        .pubbtnbg:hover{
+            background-color:#fff ; 
+            border-color:rgb(0,0,0) ; 
+            color:rgb(0,0,0);
+        }    
+        .nav_item_hover:hover,.nav_item_act{
+        	background-color:rgb(0,0,0) ;
+        	color: #fff;
+        }
+        .bold_hover:hover,.bold_hover_act{
+        	
+        }
+        .pubbtnrd_0p{
+        	background-color:rgba(0,0,0,0);
+        	color:rgb(0,0,0);
+        	padding:0px;
+        }
+        .pubbtnrd_0p:hover{
+        	background-color:rgba(0,0,0,0);
+        }
+        .pubbtnsdcc{
+        	box-shadow: 0 0 4px rgba(0,0,0,0.55), 0 4px 8px rgba(0,0,0,0.28);
+        }
+        .pubbtnsdhb{
+        	box-shadow: 0 0 4px rgba(0,0,0,0.8), 0 4px 8px rgba(0,0,0,0.28);
+        }
+        .pubreadcc{
+        	color:rgb(0,0,0);
+        }
+        .my_img_mask_out{
+        	position:relative;width:100%;height:100%;
+        }
+        .my_img_mask_inner{
+        	position:absolute;opacity:0.8;background:rgb(0,0,0);width:100%;height:100%;
+        }
+        .my_img_mask_inner:hover{
+            display:block;
+        }
+        .inneritemstd{
+            border:1px solid #ececec;
+            border-radius:8px;
+            box-shadow: 0 1px 3px rgba(26,26,26,.1);
+        }
+        .inneritemstd2{
+            border:1px solid #ececec;
+            border-radius:8px;
+        }
+        .inneritemstd3{
+            border:1px solid #ececec;
+            box-shadow: 0 1px 3px rgba(26,26,26,.1);
+        }
+        .inneritemstd4{
+            border:1px solid #ececec;
+        }
+        .publinearcc{
+             background-image: linear-gradient(to bottom , rgb(0,0,0),rgb(0,0,0),rgb(26,24,24),rgb(51,46,44),rgb(77,66,60),rgb(102,87,73))        }
+        @media (max-width: 700px) {
+            .autovcenterpox{
+                display: flex;
+                align-items: center;
+            }
+            .autopadding30_1,.myse_pdbg{
+                 padding:5px;
+            }
+            .automg-bt-30{
+            	margin-bottom:15px;
+            }
+            .automg-bt-100{
+            	margin-bottom:20px;
+            }
+            .autopd-bt-100{
+            	padding-bottom:20px;
+            }
+            .autopadding15,.myse_pda{
+                 padding:5px;
+            }
+            .autopd-vt-big{
+                padding-top:15px;
+            }
+            .autopd-vt-bktit{
+                margin-bottom:15px;
+            }
+            .navbox .container{
+                padding:0px;
+            }
+            .navbox .nav_items{
+                width:100%;
+                background-color:rgb(0,0,0);
+                color:#fff;
+                text-align:center;
+                height:50px;
+            }
+            .navitemsbox{
+                max-height:90vh;
+                overflow-y: scroll;
+                width:100%;
+            }
+            .mystdmbshownav{
+                margin-top: 0px;
+                position: absolute;
+                right: 10px;
+                width:40px;
+            }
+            .litdisplaybk{
+                display:block
+            }
+            .pubautow50_100{
+        		width:100%;
+        	}
+                .pubautow40,.pubautow60{
+                    width:100%;
+                    display:block;
+                }    
+            .justmbshow{
+                display:block;
+            }
+            .justpcshow{
+                display:none;
+            }
+            .justmbfirstshow{
+                display:none;
+            }
+            .fixedimgboxdiv_auto_big{
+                display: block;
+                width: 100%;
+                padding-top: 100%;
+                position: relative;
+                overflow:hidden;
+            }
+        }
+        @media (min-width: 700px) {
+            .pcclearfix{
+                clear:both;
+            }
+            .autovcenterpox{
+                display: flex;
+                align-items: center;
+            }
+            .autopadding30_1,.myse_pdbg{
+                padding:30px;
+            }
+            .automg-bt-30{
+            	margin-bottom:30px;
+            }
+            .automg-bt-100{
+            	margin-bottom:100px;
+            }
+            .autopd-bt-100{
+            	padding-bottom:100px;
+            }
+            .autopadding15,.myse_pda{
+                 padding:15px;
+            }
+            .autopd-vt-big{
+                padding-top:50px;
+            }
+            .autopd-vt-bktit{
+                margin-bottom:50px;
+            }
+            .pubautow50_100{
+        		width:50%;
+        	}
+            .pubautow40{
+                width:40%;
+            }   
+            .pubautow60{
+                width:60%;
+            }   
+            .justpcshow{
+                display:block;
+            }
+            .justmbshow{
+                display:none;
+            }
+            .autosz40{
+                font-size:40px;
+            }
+            .autosz60{
+                font-size:60px;
+            }
+            .autosz80{
+                font-size:80px;
+            }
+            .navitemsbox{
+                max-width:75%;
+            }
+            .fixedimgboxdiv_auto_big{
+                display: block;
+                width: 100%;
+                padding-top: 50%;
+                position: relative;
+                overflow:hidden;
+            }
+        } 
+        .myblocksetbtn{
+            background-color: #333;
+            padding-bottom:15px;
+        }
+        .myblocksetbtnsub{
+            margin-left:5px;
+            float:left;
+            text-align: center;
+            font-size:14px;
+            cursor:pointer
+        }
+        .mybtnp_close{
+             color: #fff;
+             text-align:center;
+        }     
+    	@media (min-width: 600px) {
+		 	.clearpc{
+		 		clear:both;
+		 	}
+		 	.clearmb{
+		 		display:none;
+		 	}
+		 }
+		 @media (max-width: 600px) {
+		 	.clearpc{
+		 		display:none;
+		 	}
+		 	.clearmb{
+		 		clear:both;
+		 	}
+		 	.bktitbox h1{
+		 		font-size:28px;
+		 		margin:0px;
+		 		padding:10px 0;
+		 	}
+		 }
+</style>    
+  </head> 
+<body class="cc_bgcc" data-skip-type="0" data-bd_bgtype="no" style=";;background-size:auto;">
+       <div id="preloader" class="myjsloader">
+        <div class="loader" id="loader-1"></div>
+      </div>
+      <!--bkoutend-->
+        
+            <!--bkoutstart-->
+<div id="bk_76544" data-mkid="0" data-mix-mkbkid="0_bk_76544" data-cover="https://cdn.vipcom.cc/Public/image/block/nv_wtstd.jpg?31" 
+         data-name="默认白色背景顶部导航(颜色可自定义)"
+         data-file-path="Block/Nav/nv_wtstd"
+         data-bid="76544"
+         data-order=""
+         data-use-type="nav"
+         data-vip-level="0"
+         class="blockpos cc_bgcc_bak js-my-pblock "
+         style="background-image:url();"  data-bgsrc="null" data-id="14061_bk_76544_bg"  data-href='' data-pmkid="0" data-img-type="css" data-is_del="" data-mb-show=""  data-class=""
+         data-hide="0" 
+         data-hide-exp=""
+         data-hide-status=""
+         data-align="center"
+         >
+        <!--bkoutend-->
+        <!--bkoutstart-->
+                <!--bkoutend-->
+                
+                <!--bkoutstart-->
+                <!--bkoutend-->
+        <!--bkoutstart-->
+        
+        <div id="bk_76544_blockrendbox" class="blockrendbox" >  <!--bkoutend-->
+            <style>
+    #navbox{
+        height:80px;
+        width:100%;
+        box-shadow: 1px 1px 8px rgba(119,133,202,.34);
+    }
+    
+    .nav_items a{
+        color:#333;
+        font-size:15px;
+    }    
+    @media (min-width: 800px) {
+        .nav_items{
+            float:left;
+            height:80px;
+            padding:0 15px;
+            color:#333;
+            line-height:80px;
+        }
+        .navitemsbox{
+        	height:80px;
+        	overflow-y: auto;
+        }
+     }
+     @media (max-width: 800px) {
+         .nav_items a{
+            color:#000;
+        }  
+        .nav_items{
+            float:left;
+            height:50px;
+            padding:0 15px;
+            color:#333;
+            line-height:50px;
+        }
+        .navitemsbox {
+            background-color:#fff;
+            width:100%;
+        }
+        .nav_items{
+            width:100%;
+            text-align:center;
+        }
+        #navbox .container{
+            padding:0;
+        }
+     }    
+</style>
+<div style="display:hidden;" class="notsetblockbg notsetblockbgcc notsetblock_pd_mg notsetblockbg btn_set_data" data-mypop-data="{bkbgcc:{def:'#fff',type:'color',title:'导航背景色'},bkftcc:{def:'#333',type:'color',title:'字体颜色'}}" ></div>
+
+<!--blockname 白色背景顶部导航 blocknameend-->
+<!--blockdesp 白色背景顶部导航 blockdespend-->
+<div id="navbox" class="wt_bgcc notsetblock_pd_mg notsetblockbg blockpos sfixedtopnav navbar-fixed-top inner_set_num map_block_bg" style="background-color:#fff"   data-key="lpk" data-lp-num="4" data-lp-title="导航链接数量调整">
+    <div class="container">
+        <div style="float:left;height:80px;">
+            <img class="mylog svg_img js-my-replace-img isfixedimg" style="height:80px;" src="./image/64851f23ef828.jpg"   data-must-crop="" data-myimg-width="" data-myimg-ration="" data-id="14061_bk_76544_mylogo2"  data-href='' data-pmkid="0" data-is_del="" data-mb-show="" data-class="">
+        </div>  
+        <h3 style="float: left;margin-top: 1%;margin-left: 5%;">VirTransCNN 在线展示平台</h3>
+        <div class="navitemsbox justmbfirstshow  pull-right">
+                                    <div class="nav_items js_myclosenav current">
+                            <a href="#bk_76545" class="nav_fixed_pos  my-not-act" style="color:#333" >
+                                <lhz   data-id="14061_bk_76544_nav_txt_1"  data-href='block:bk_76545' data-pmkid="0" data-is_del="" class="js-my-replace-txt"><strong>首页</strong></lhz>                            </a>
+                        </div>    
+                                    <div class="nav_items js_myclosenav ">
+                            <a href="#bk_76546" class="nav_fixed_pos  my-not-act" style="color:#333" >
+                                <lhz   data-id="14061_bk_76544_nav_txt_2"  data-href='block:bk_76546' data-pmkid="0" data-is_del="" class="js-my-replace-txt"><strong>框架介绍</strong></lhz>                            </a>
+                        </div>    
+                                    <div class="nav_items js_myclosenav ">
+                            <a href="javascript://" class="nav_fixed_pos  my-not-act" style="color:#333" >
+                                <lhz   data-id="14061_bk_76544_nav_txt_3"  data-href='' data-pmkid="0" data-is_del="" class="js-my-replace-txt"><strong>数据分析</strong></lhz>                            </a>
+                        </div>    
+                                    <div class="nav_items js_myclosenav ">
+                            <a href="#bk_76548" class="nav_fixed_pos  my-not-act" style="color:#333" >
+                                <lhz   data-id="14061_bk_76544_nav_txt_4"  data-href='block:bk_76548' data-pmkid="0" data-is_del="" class="js-my-replace-txt"><strong>模型分析</strong></lhz>                            </a>
+                        </div>    
+                            
+                       <div class="nav_items justmbshow js_myclosenav">   
+                <a class="nav_fixed_pos  my-not-ac" href="#">   × </a>
+            </div>   
+        </div>
+        <div class="mystdmbshownav justmbshow js_mystdmbshownav">
+                <svg style="margin-top:25px;" t="1606270350774" class="iconmbbtn" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2757" width="20px" height="20px"><path d="M66.488889 211.781818h891.022222c28.198788 0 50.980202-22.238384 50.980202-49.648485 0-27.397172-22.768485-49.648485-50.980202-49.648485H66.488889C38.341818 112.484848 15.508687 134.723232 15.508687 162.133333s22.833131 49.648485 50.980202 49.648485z m891.009293 248.242424H66.488889C38.277172 460.024242 15.508687 482.262626 15.508687 509.672727s22.768485 49.648485 50.980202 49.648485h891.022222c28.198788 0 50.980202-22.238384 50.980202-49.648485-0.012929-27.410101-22.923636-49.648485-50.993131-49.648485z m0 351.63798H66.488889c-28.134141 0-50.980202 22.238384-50.980202 49.648485s22.833131 49.648485 50.980202 49.648485h891.022222c28.198788 0 50.980202-22.238384 50.980202-49.648485-0.012929-27.397172-22.781414-49.648485-50.993131-49.648485z m0 0" p-id="2758" fill="#333"></path></svg>
+        </div>
+        <div style="clear:both"></div>
+        
+        
+    </div>
+</div>
+<div style="clear:both"></div>
+<div class="bknotsetht" style="height:80px;"></div>        </div>    
+    </div>
+
+ 
+          <!--bkoutstart-->
+<div id="bk_76545" data-mkid="0" data-mix-mkbkid="0_bk_76545" data-cover="https://cdn.vipcom.cc/Public/image/block/stdsd_6.jpg?31" 
+         data-name="可左右滑动的大图幻灯模块"
+         data-file-path="Block/Slider/stdsd_6"
+         data-bid="76545"
+         data-order="0"
+         data-use-type=""
+         data-vip-level="0"
+         class="blockpos cc_bgcc_bak js-my-pblock autopd-bt-100"
+         style="background-image:url();margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px;"  data-bgsrc="null" data-id="14061_bk_76545_bg"  data-href='' data-pmkid="0" data-img-type="css" data-is_del="" data-mb-show=""  data-class=""
+         data-hide="0" 
+         data-hide-exp=""
+         data-hide-status="0"
+         data-align="center"
+         >
+        <!--bkoutend-->
+        <!--bkoutstart-->
+                <!--bkoutend-->
+                
+                
+        <div style="display:none;" class="btn_set_cc btn_set_ftcc"  data-mypop-data="{intro:{type:'intro',title:'注：如果您给目标单独设置了颜色，以下设置将没有效果'},bkftcc:{def:'wt_ftcc',data:[{s:'黑色',v:'bk_ftcc'},{s:'白色',v:'wt_ftcc'},{s:'灰色',v:'gray_ftcc'},{s:'自动主题色',v:'pubcc'}],type:'tag_select',title:'内框字体颜色'}}" ></div>
+        
+                <!--bkoutstart-->
+                <!--bkoutend-->
+        <!--bkoutstart-->
+        
+        <div id="bk_76545_blockrendbox" class="blockrendbox" >  <!--bkoutend-->
+            <style>
+     #bk_76545_block .swiper-container{
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      overflow: hidden;
+    }
+
+     #bk_76545_block .swiper-slide {
+      background-size: cover;
+      background-position: center;
+    }
+
+     #bk_76545_block .gallery-top { 
+        width: 100%;
+    }
+    #bk_76545 .mask_video_p_aft {
+	    content: '';
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    right: 0;
+	    bottom: 0px;
+	    background-color: rgba(5,5,5);
+	    opacity:0.8;
+	    z-index: 0;
+	}
+    #bk_76545 .mask_video_p_bak:after {
+	    content: '';
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    right: 0;
+	    bottom: 0;
+	    background-color: rgba(5,5,5);
+	    opacity:0.8;
+	    z-index: -1;
+	}
+    #bk_76545 .mask_video_p_txt{
+         width:100%;
+     }
+     
+    @media (min-width: 700px) {    
+        #bk_76545 .mask_video_p_out{
+            position:relative;width:100%;height:100%;
+         }
+         #bk_76545 .mask_video_p_txt_out{  
+            position:absolute;   
+            top:0;display: flex;
+            width:90%;
+            height:100%;
+            color:#fff;
+            z-index:2;
+            align-items: center;
+                            padding-left: 10%;                            
+                       
+         }
+        #bk_76545 .mask_video_p {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            z-index: 1;
+        }
+        #bk_76545 .mybigimgbox{
+            height: 100vh;
+            overflow:hidden;
+        }
+     } 
+     @media (max-width: 700px) {
+     	#bk_76545 .swiper-wrapper{
+     		height: 80vh;
+     	}
+     	#bk_76545 .mask_video_p_out{
+            position:relative;width:100%;height:100%;
+         }
+         #bk_76545 .mask_video_p_txt_out{  
+            position:absolute;   
+            top:0;display: flex;
+            width:90%;
+            height:100%;
+            color:#fff;
+            z-index:2;
+            align-items: center;
+                            padding-left: 10%;                            
+                       
+         }
+        #bk_76545 .mask_video_p {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            z-index: 1;
+        }
+        #bk_76545 .mybigimgbox{
+            height: 100%;
+            overflow:hidden;
+        }
+         #bk_76545 .mybigimgbox{
+        	position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden; z-index: -100; clip-path: polygon(0px 0px, 100% 0px, 100% 100%, 0px 100%)
+     	}
+     	 #bk_76545 .mybigimgbox img{
+     	 	object-fit: cover;
+			object-position: 50% 0%;
+			max-width: none;
+			top: 0px;
+			left: 0px;
+			width: 100%;
+			height: 100%;
+			overflow: hidden;
+			pointer-events: none;
+			transform-style: preserve-3d;
+			backface-visibility: hidden;
+			margin-top: 10.75px;
+			transform: translate3d(0px, -10px, 0px);
+     	}
+     }  
+</style>    
+
+
+<!--blockname 可左右滑动的大图 no_set_title blocknameend-->
+<div style="display:hidden;" class="btn_set_data" data-stitle="文字和遮罩层调整" data-mypop-data="{bkalign:{data:[{s:'左',v:'left'},{s:'居中',v:'center'},{s:'右',v:'right'}],def:'left',type:'tag_select',title:'文字对齐方式'},bkshow:{data:[{s:'隐藏',v:''},{s:'显示',v:'show'}],def:'show',type:'tag_select',title:'隐藏显示文字'},bkopc:{data:[{s:'全透明',v:'0.01'},{s:'80%透明',v:'0.2'},{s:'60%透明',v:'0.4'},{s:'半透明',v:'0.5'},{s:'20%透明',v:'0.8'}],def:'0.01',type:'tag_select',title:'遮罩层透明度'}}" ></div>
+<div id="bk_76545_block">
+    <div class="swiper-container notsetblockbg gallery-top  btn_set_data"   data-stitle="滑动按钮设置"  data-mypop-data="{bksdarr:{data:[{s:'关闭',v:'2'},{s:'开启',v:'1'}],def:'1',type:'tag_select',title:'左右箭头'},bksdpg:{data:[{s:'关闭',v:'2'},{s:'开启',v:'1'}],def:'1',type:'tag_select',title:'分页按钮'}}" >
+        <div class="swiper-wrapper inner_set_num" data-max="10" data-key="lpk" data-lp-num="3" data-lp-title="图片数量"> 
+                        <div class="swiper-slide">
+                <div class="mask_video_p_out pclickbox">
+                        <div class="mybigimgbox myfullwidth">
+                             <img class="justpcshow auto_image pc_auto_image img-responsive center-block js-my-replace-img " src="./image/1.jpg"   data-must-crop="" data-myimg-width="" data-myimg-ration="" data-id="14061_bk_76545_ig_1"  data-href='' data-pmkid="0" data-is_del="" data-pc-show="./image/1.jpg" data-mb-show="./image/1.jpg" data-class="" style="max-width: 100%;max-height: 100%;"><img class="justmbshow auto_image mb_auto_image img-responsive center-block js-my-replace-img " src="./image/1.jpg"   data-must-crop="" data-myimg-width="" data-myimg-ration="" data-id="14061_bk_76545_ig_1"  data-href='' data-pmkid="0" data-is_del="" data-pc-show="./image/1.jpg" data-mb-show="./image/1.jpg" data-class="" style="max-width: 100%;max-height: 100%;">                        </div>
+                        <div class="mask_video_p js_test_click  mbimg_map_click" data-type="pfind" data-p=".pclickbox" data-target="img">
+                                <div class="mask_video_p_txt_out">
+                                        <div class="mask_video_p_txt">
+                                                                                            <div class="justpcshowbak">
+                                                    <div class="justftsz_40 wt_ftcc mbnewcc">
+                                                        <lhz  style="display:none;" data-id="14061_bk_76545_tt_1" data-pmkid="0" data-is_del="1" class="js-my-replace-txt js-my-hide-item"></lhz>                                                    </div>
+                                                    <p class="wt_ftcc mbnewcc" style="padding:10px 2px;">
+                                                        <lhz  style="display:none;" data-id="14061_bk_76545_dp_1" data-pmkid="0" data-is_del="1" class="js-my-replace-txt js-my-hide-item"></lhz>                                                    </p>
+                                                    <div style="margin-top:20px;">
+                                                                                                            </div>
+                                                </div>
+                                                                                    </div>
+
+                                </div>	
+                        </div>
+                        <div class="mask_video_p_aft " style="opacity:0.01"></div>
+                </div>
+                 <!-- Add Pagination -->
+                                           <!-- Add Pagination -->
+                       <div class="justpcshow swiper-pagination wt_ftcc"></div>
+                                          <!-- Navigation -->
+                       <div class="swiper-button-next swiper-button-white wt_ftcc"></div>
+                       <div class="swiper-button-prev swiper-button-white wt_ftcc"></div>
+                               </div>
+                        <div class="swiper-slide">
+                <div class="mask_video_p_out pclickbox">
+                        <div class="mybigimgbox myfullwidth">
+                             <img class="justpcshow auto_image pc_auto_image img-responsive center-block js-my-replace-img " src="./image/2.jpg"   data-must-crop="" data-myimg-width="" data-myimg-ration="" data-id="14061_bk_76545_ig_2"  data-href='' data-pmkid="0" data-is_del="" data-pc-show="./image/2.jpg" data-mb-show="./image/2.jpg" data-class="" style="max-width: 100%;max-height: 100%;"><img class="justmbshow auto_image mb_auto_image img-responsive center-block js-my-replace-img " src="./image/2.jpg"   data-must-crop="" data-myimg-width="" data-myimg-ration="" data-id="14061_bk_76545_ig_2"  data-href='' data-pmkid="0" data-is_del="" data-pc-show="./image/2.jpg" data-mb-show="./image/2.jpg" data-class="" style="max-width: 100%;max-height: 100%;">                        </div>
+                        <div class="mask_video_p js_test_click  mbimg_map_click" data-type="pfind" data-p=".pclickbox" data-target="img">
+                                <div class="mask_video_p_txt_out">
+                                        <div class="mask_video_p_txt">
+                                                                                            <div class="justpcshowbak">
+                                                    <div class="justftsz_40 wt_ftcc mbnewcc">
+                                                        <lhz  style="display:none;" data-id="14061_bk_76545_tt_2" data-pmkid="0" data-is_del="1" class="js-my-replace-txt js-my-hide-item"></lhz>                                                    </div>
+                                                    <p class="wt_ftcc mbnewcc" style="padding:10px 2px;">
+                                                        <lhz  style="display:none;" data-id="14061_bk_76545_dp_2" data-pmkid="0" data-is_del="1" class="js-my-replace-txt js-my-hide-item"></lhz>                                                    </p>
+                                                    <div style="margin-top:20px;">
+                                                                                                            </div>
+                                                </div>
+                                                                                    </div>
+
+                                </div>	
+                        </div>
+                        <div class="mask_video_p_aft " style="opacity:0.01"></div>
+                </div>
+                 <!-- Add Pagination -->
+                                           <!-- Add Pagination -->
+                       <div class="justpcshow swiper-pagination wt_ftcc"></div>
+                                          <!-- Navigation -->
+                       <div class="swiper-button-next swiper-button-white wt_ftcc"></div>
+                       <div class="swiper-button-prev swiper-button-white wt_ftcc"></div>
+                               </div>
+                        <div class="swiper-slide">
+                <div class="mask_video_p_out pclickbox">
+                        <div class="mybigimgbox myfullwidth">
+                             <img class="justpcshow auto_image pc_auto_image img-responsive center-block js-my-replace-img " src="./image/3.jpg"   data-must-crop="" data-myimg-width="" data-myimg-ration="" data-id="14061_bk_76545_ig_3"  data-href='' data-pmkid="0" data-is_del="" data-pc-show="./image/3.jpg" data-mb-show="./image/3.jpg" data-class="" style="max-width: 100%;max-height: 100%;"><img class="justmbshow auto_image mb_auto_image img-responsive center-block js-my-replace-img " src="./image/3.jpg"   data-must-crop="" data-myimg-width="" data-myimg-ration="" data-id="14061_bk_76545_ig_3"  data-href='' data-pmkid="0" data-is_del="" data-pc-show="./image/60bb531d5fe30.jpg" data-mb-show="./image/3.jpg" data-class="" style="max-width: 100%;max-height: 100%;">                        </div>
+                        <div class="mask_video_p js_test_click  mbimg_map_click" data-type="pfind" data-p=".pclickbox" data-target="img">
+                                <div class="mask_video_p_txt_out">
+                                        <div class="mask_video_p_txt">
+                                                                                            <div class="justpcshowbak">
+                                                    <div class="justftsz_40 wt_ftcc mbnewcc">
+                                                        <lhz  style="display:none;" data-id="14061_bk_76545_tt_3" data-pmkid="0" data-is_del="1" class="js-my-replace-txt js-my-hide-item"></lhz>                                                    </div>
+                                                    <p class="wt_ftcc mbnewcc" style="padding:10px 2px;">
+                                                        <lhz  style="display:none;" data-id="14061_bk_76545_dp_3" data-pmkid="0" data-is_del="1" class="js-my-replace-txt js-my-hide-item"></lhz>                                                    </p>
+                                                    <div style="margin-top:20px;">
+                                                                                                            </div>
+                                                </div>
+                                                                                    </div>
+
+                                </div>	
+                        </div>
+                        <div class="mask_video_p_aft " style="opacity:0.01"></div>
+                </div>
+                 <!-- Add Pagination -->
+                                           <!-- Add Pagination -->
+                       <div class="justpcshow swiper-pagination wt_ftcc"></div>
+                                          <!-- Navigation -->
+                       <div class="swiper-button-next swiper-button-white wt_ftcc"></div>
+                       <div class="swiper-button-prev swiper-button-white wt_ftcc"></div>
+                               </div>
+                    </div>
+    </div>
+</div>
+
+    <script>
+      $(function(){
+            var galleryTop = new Swiper('#bk_76545_block .gallery-top', {
+              spaceBetween: 10,
+              loop: false,
+              loopedSlides: 3, //looped slides should be the same
+              pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+             },
+              navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+              },
+              autoplay: {
+                    delay: 4500,
+                    disableOnInteraction: false,
+              }
+            });
+      });
+    </script>        </div>    
+    </div>
+
+ 
+          <!--bkoutstart-->
+<div id="bk_76546" data-mkid="0" data-mix-mkbkid="0_bk_76546" data-cover="https://cdn.vipcom.cc/Public/image/block/sg_4t6.png?31" 
+         data-name="个性图文介绍"
+         data-file-path="Block/Singel/sg_4t6"
+         data-bid="76546"
+         data-order="1"
+         data-use-type=""
+         data-vip-level="0"
+         class="blockpos cc_bgcc_bak js-my-pblock automg-bt-100"
+         style="background-image:url();margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px;"  data-bgsrc="null" data-id="14061_bk_76546_bg"  data-href='' data-pmkid="0" data-img-type="css" data-is_del="" data-mb-show=""  data-class=""
+         data-hide="0" 
+         data-hide-exp=""
+         data-hide-status="0"
+         data-align="center"
+         >
+        <!--bkoutend-->
+        <!--bkoutstart-->
+                <!--bkoutend-->
+                
+                <div style="display:none;" class="btn_set_cc btn_set_bgcc"  data-mypop-data="{bkbgcc:{def:'#fff',type:'color',title:'内框背景色'}}" ></div>
+                <!--bkoutstart-->
+                <!--bkoutend-->
+        <!--bkoutstart-->
+        
+        <div id="bk_76546_blockrendbox" class="blockrendbox" >  <!--bkoutend-->
+             
+<!--blockname sg 四六开模块 no_set_title blocknameend-->
+ <div class="notsetblockbg btn_set_data" data-mypop-data="{bkalign:{data:[{s:'左',v:'left'},{s:'右',v:'right'}],def:'left',type:'tag_select',title:'左右排列调整'},bkttalign:{data:[{s:'左对齐',v:'left'},{s:'居中',v:'center'}],def:'center',type:'tag_select',title:'文字对其'}}" style="margin-top: 2%;">
+     <div class="pubbgcc autovcenterpox litdisplaybk"   >
+          	      <div class="pubautow60 pubpd0 myfullwidth">
+	         	<img class=" img-responsive center-block js-my-replace-img  myfullimg" src="./image/4.jpg"   data-must-crop="" data-myimg-width="800" data-myimg-ration="" data-id="14061_bk_76546_p1a"  data-href='' data-pmkid="0" data-is_del="" data-mb-show="" data-class=" myfullimg" style="max-width: 100%;max-height: 100%;">	       </div>
+          	       <div class="justpcshow pubautow40 pubpd0 text-center pubbgcc"  >
+	           <div class="autopadding15 " style="text-align:center">  
+	               <h1 class="ctras_cc autosz50">
+	                   <lhz   data-id="14061_bk_76546_t1a"  data-href='' data-pmkid="0" data-is_del="" class="js-my-replace-txt">VirTransCNN 模型</lhz>	               </h1>
+	               <p class="ctras_cc">
+	                   <lhz   data-id="14061_bk_76546_t1b"  data-href='' data-pmkid="0" data-is_del="" class="js-my-replace-txt">A模块代表了收集氨基酸序列并处理的过程，从NCBI Virus网站中下载刺突蛋白的完整序列，截取特定的序列，并去掉重复序列，保证序列的唯一性，并将字母序列编码成数字序列，切分数据集与标签得到训练数据。
+                        B模块表示通过收集到的氨基酸序列进行数据分析，并绘制各类型的统计图，以分析病毒的变异规律。
+                        C模块是VirusAminoCNN，主要通过卷积神经网络来提取局部信息的特征，以弥补Transformer的不足，这个模块主要包括仿射变换、线性投影、归一化、激活函数以及由一个三层卷积构成的CNN Block块（G模块）。
+                        D模块是VirusAminoTransformer，主要是实现了flow-attention机制的Transformer框架，该框架与传统的Transformer不同，具有更好的处理长序列文本的能力与线性复杂度。
+                        F模块主要是使用训练好的VirTransCNN模型进行下游任务分析，包括病毒聚类分析，突变预测、适应度分析、进化方向分析等。</lhz>	               </p>    
+	           </div>
+	       </div>
+                          <div class="justmbshow pubautow40 pubpd0 text-center pubbgcc"  >
+	           <div class="autopadding15 " style="text-align:center">  
+	               <h1 class="ctras_cc autosz50">
+	                   <lhz   data-id="14061_bk_76546_t1a"  data-href='' data-pmkid="0" data-is_del="" class="js-my-replace-txt">超级单页</lhz>	               </h1>
+	               <p class="ctras_cc">
+	                   <lhz   data-id="14061_bk_76546_t1b"  data-href='' data-pmkid="0" data-is_del="" class="js-my-replace-txt">点击模块上方&quot;模块特殊调整&quot;可以选择文字对齐方式(“右对齐”或者“居中”）</lhz>	               </p>    
+	           </div>
+	       </div>
+	       <div class="clearfix"></div>
+       </div>
+</div>        </div>    
+    </div>
+
+ 
+          <!--bkoutstart-->
+<div id="bk_76547" data-mkid="0" data-mix-mkbkid="0_bk_76547" data-cover="https://cdn.vipcom.cc/Public/image/block/tm_std.png?31" 
+         data-name="时间轴单屏"
+         data-file-path="Block/timeline/tm_std"
+         data-bid="76547"
+         data-order="2"
+         data-use-type=""
+         data-vip-level="1"
+         class="blockpos cc_bgcc_bak js-my-pblock autopd-bt-100"
+         style="background-image:url();margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px;"  data-bgsrc="null" data-id="14061_bk_76547_bg"  data-href='' data-pmkid="0" data-img-type="css" data-is_del="" data-mb-show=""  data-class=""
+         data-hide="1" 
+         data-hide-exp=""
+         data-hide-status="0"
+         data-align="center"
+         >
+        <!--bkoutend-->
+        <!--bkoutstart-->
+                <!--bkoutend-->
+                
+                <div style="display:none;" class="btn_set_cc btn_set_bgcc"  data-mypop-data="{bkbgcc:{def:'#fff',type:'color',title:'内框背景色'}}" ></div>
+                
+        <div style="display:none;" class="btn_set_cc btn_set_ftcc"  data-mypop-data="{intro:{type:'intro',title:'注：如果您给目标单独设置了颜色，以下设置将没有效果'},bkftcc:{def:'bk_ftcc',data:[{s:'黑色',v:'bk_ftcc'},{s:'白色',v:'wt_ftcc'},{s:'灰色',v:'gray_ftcc'},{s:'自动主题色',v:'pubcc'}],type:'tag_select',title:'内框字体颜色'}}" ></div>
+        
+                <div style="display:none;" class="val_my_outline"  data-val="inneritemstd autopadding30_1" ></div>
+                <!--bkoutstart-->
+                  <div style="" class=" bktitbox container autopd-vt-bktit text-center" >
+             <h1><lhz   data-id="14061_bk_76547_bktt_"  data-href='' data-pmkid="0" data-is_del="" class="js-my-replace-txt">数据分析结果展示</lhz></h1>
+             <p><lhz  style="display:none;" data-id="14061_bk_76547_bkttdp_" data-pmkid="0" data-is_del="1" class="js-my-replace-txt js-my-hide-item"></lhz></p>
+          </div>
+                <!--bkoutend-->
+        <!--bkoutstart-->
+        
+        <div id="bk_76547_blockrendbox" class="blockrendbox" >  <!--bkoutend-->
+            <style>
+.site-module-timeline .cd-timeline {
+    position: relative;
+
+}
+.cd-timeline::before {
+    top:30px;
+    bottom: 0;
+    position: absolute;
+    content: " ";
+    width: 1px;
+    border-right: 1px solid rgb(0,0,0);
+    left: 50%;
+    margin-left: 0px;
+}
+.cd-timeline-block {
+    margin: 4em 0;
+    position: relative;
+}
+.timeimgsinr{
+    padding:0 0px;
+}
+.site-box-bottom-primary-border {
+    border: 1px solid rgb(0,0,0);
+}
+.cd-timeline-content-bak::before {
+    content: '';
+    position: absolute;
+    top: 16px;
+    right: 100%;
+    height: 0;
+    width: 0;
+    border: 7px solid transparent;
+    border-right: 7px solid #e0e0e0;
+    border-right-color: rgb(224, 224, 224);
+}
+.cd-timeline-img {
+        position: absolute;
+        text-align: center;
+        font-size: 24px;
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+        margin-left: -30px;
+        -webkit-transform: translateZ(0);
+        -webkit-backface-visibility: hidden;
+        border: 1px solid rgb(0,0,0);
+        border-radius: 50%;
+        background: #fff;
+}
+@media (max-width: 600px) {
+    .timeline .cd-timeline-content {
+        margin-left: 0;
+        width: 100%;
+        background: #fff;
+        border-radius: 5px;
+    }    
+    .cd-timeline-img {
+        top: -60px;
+        left: 15px;
+    }  
+    .cd-timeline::before {
+        display:none;
+    }    
+    .timeline{
+        border-left:2px solid rgb(0,0,0);
+    }
+    .cd-date {
+        top: 18px;
+        font-size: 16px;
+    }
+     .cd-date-one .cd-date-two {
+         position: unset;
+         left: 0;
+     }   
+} 
+@media (min-width: 600px) {
+    .timeline .cd-timeline-content {
+        margin-left: 0;
+        width: 45%;
+        background: #fff;
+        border-radius: 5px;
+        padding:0 25px;
+
+    }
+    .cd-timeline-img {
+        top: 0;
+        left: 50%;
+    }
+    .cd-timeline::before {
+        left:50%;
+    }  
+     .cd-date-one {
+        left: 55%;
+    }
+     .cd-date-two {
+         right: 55%;
+     }     
+    .cd-date {
+        position: absolute;
+        top: 18px;
+        font-size: 16px;
+    } 
+}   
+</style>
+
+ <!--blockname 时间轴单屏 blocknameend-->
+<div class="container timeline" >
+    <div style="position:relative;" class="cd-timeline cd-container inner_set_num" data-key="lpk" data-max="12" data-min="2" data-lp-num="12" data-lp-title="">
+        
+                    <div class="cd-timeline-block">
+                    <div  class="cd-timeline-img text-primary background-primary-color" >
+                         <div data-id="14061_bk_76547_btn2_1"  data-myscs-pubftsize="pubftsz30" data-myscs-myiconst="iconup"   data-href='' data-btn-type="icon"  data-act="" class="pubcc js-my-btn-replace-set btn btn-default-my myiconfont  pubftsz30 iconup "   >  </div>                    </div>
+                <div  class="pull-right bk_ftcc cd-timeline-content box-primary site-box-padding inner_myset_style inneritemstd autopadding30_1">
+                            <h3><lhz   data-id="14061_bk_76547_tt_1"  data-href='' data-pmkid="0" data-is_del="" class="js-my-replace-txt">病毒地理分布</lhz> </h3>
+                            <div class="timeimgsinr">
+                                <img class=" img-responsive center-block js-my-replace-img " src="./image/5.png"   data-must-crop="" data-myimg-width="900" data-myimg-ration="192:128" data-id="14061_bk_76547_ig1"  data-href='' data-pmkid="0" data-is_del="" data-mb-show="" data-class="">                            </div>
+                            <span class="cd-date cd-date-two">
+                                <lhz   data-id="14061_bk_76547_ttt_1"  data-href='' data-pmkid="0" data-is_del="" class="js-my-replace-txt">任务一</lhz> 
+                           </span>
+                    </div>
+                <div class="clearfix"></div>        
+            </div>
+        
+                    <div class="cd-timeline-block">
+                    <div  class="cd-timeline-img text-primary background-primary-color" >
+                         <div data-id="14061_bk_76547_btn2_2"  data-myscs-pubftsize="pubftsz30" data-myscs-myiconst="iconup"   data-href='' data-btn-type="icon"  data-act="" class="pubcc js-my-btn-replace-set btn btn-default-my myiconfont  pubftsz30 iconup "   >  </div>                    </div>
+                <div  class=" bk_ftcc cd-timeline-content box-primary site-box-padding inner_myset_style inneritemstd autopadding30_1">
+                            <h3><lhz   data-id="14061_bk_76547_tt_2"  data-href='' data-pmkid="0" data-is_del="" class="js-my-replace-txt">病毒在各大洲的数量分布（log10）</lhz> </h3>
+                            <div class="timeimgsinr">
+                                <img class=" img-responsive center-block js-my-replace-img " src="./image/6.png"   data-must-crop="" data-myimg-width="900" data-myimg-ration="192:128" data-id="14061_bk_76547_ig2"  data-href='' data-pmkid="0" data-is_del="" data-mb-show="" data-class="">                            </div>
+                            <span class="cd-date cd-date-one">
+                                <lhz   data-id="14061_bk_76547_ttt_2"  data-href='' data-pmkid="0" data-is_del="" class="js-my-replace-txt">任务二</lhz> 
+                           </span>
+                    </div>
+                <div class="clearfix"></div>        
+            </div>
+        
+                    <div class="cd-timeline-block">
+                    <div  class="cd-timeline-img text-primary background-primary-color" >
+                         <div data-id="14061_bk_76547_btn2_3"  data-myscs-pubftsize="pubftsz30" data-myscs-myiconst="iconup"   data-href='' data-btn-type="icon"  data-act="" class="pubcc js-my-btn-replace-set btn btn-default-my myiconfont  pubftsz30 iconup "   >  </div>                    </div>
+                <div  class="pull-right bk_ftcc cd-timeline-content box-primary site-box-padding inner_myset_style inneritemstd autopadding30_1">
+                            <h3><lhz   data-id="14061_bk_76547_tt_3"  data-href='' data-pmkid="0" data-is_del="" class="js-my-replace-txt">病毒谱系词云图</lhz> </h3>
+                            <div class="timeimgsinr">
+                                <img class=" img-responsive center-block js-my-replace-img " src="./image/7.png"   data-must-crop="" data-myimg-width="900" data-myimg-ration="192:128" data-id="14061_bk_76547_ig3"  data-href='' data-pmkid="0" data-is_del="" data-mb-show="" data-class="">                            </div>
+                            <span class="cd-date cd-date-two">
+                                <lhz   data-id="14061_bk_76547_ttt_3"  data-href='' data-pmkid="0" data-is_del="" class="js-my-replace-txt">任务三</lhz> 
+                           </span>
+                    </div>
+                <div class="clearfix"></div>        
+            </div>
+        
+                    <div class="cd-timeline-block">
+                    <div  class="cd-timeline-img text-primary background-primary-color" >
+                         <div data-id="14061_bk_76547_btn2_4"  data-myscs-pubftsize="pubftsz30" data-myscs-myiconst="iconup"   data-href='' data-btn-type="icon"  data-act="" class="pubcc js-my-btn-replace-set btn btn-default-my myiconfont  pubftsz30 iconup "   >  </div>                    </div>
+                <div  class=" bk_ftcc cd-timeline-content box-primary site-box-padding inner_myset_style inneritemstd autopadding30_1">
+                            <h3><lhz   data-id="14061_bk_76547_tt_4"  data-href='' data-pmkid="0" data-is_del="" class="js-my-replace-txt">病毒谱系气泡图</lhz> </h3>
+                            <div class="timeimgsinr">
+                                <img class=" img-responsive center-block js-my-replace-img " src="./image/8.png"   data-must-crop="" data-myimg-width="900" data-myimg-ration="192:128" data-id="14061_bk_76547_ig4"  data-href='' data-pmkid="0" data-is_del="" data-mb-show="" data-class="">                            </div>
+                            <span class="cd-date cd-date-one">
+                                <lhz   data-id="14061_bk_76547_ttt_4"  data-href='' data-pmkid="0" data-is_del="" class="js-my-replace-txt">任务四</lhz> 
+                           </span>
+                    </div>
+                <div class="clearfix"></div>        
+            </div>
+        
+                    <div class="cd-timeline-block">
+                    <div  class="cd-timeline-img text-primary background-primary-color" >
+                         <div data-id="14061_bk_76547_btn2_5"  data-myscs-pubftsize="pubftsz30" data-myscs-myiconst="iconup"   data-href='' data-btn-type="icon"  data-act="" class="pubcc js-my-btn-replace-set btn btn-default-my myiconfont  pubftsz30 iconup "   >  </div>                    </div>
+                <div  class="pull-right bk_ftcc cd-timeline-content box-primary site-box-padding inner_myset_style inneritemstd autopadding30_1">
+                            <h3><lhz   data-id="14061_bk_76547_tt_5"  data-href='' data-pmkid="0" data-is_del="" class="js-my-replace-txt">病毒数量随采样时间的变化</lhz> </h3>
+                            <div class="timeimgsinr">
+                                <img class=" img-responsive center-block js-my-replace-img " src="./image/9.png"   data-must-crop="" data-myimg-width="900" data-myimg-ration="192:128" data-id="14061_bk_76547_ig5"  data-href='' data-pmkid="0" data-is_del="" data-mb-show="" data-class="">                            </div>
+                            <span class="cd-date cd-date-two">
+                                <lhz   data-id="14061_bk_76547_ttt_5"  data-href='' data-pmkid="0" data-is_del="" class="js-my-replace-txt">任务五</lhz> 
+                           </span>
+                    </div>
+                <div class="clearfix"></div>        
+            </div>
+        
+                    <div class="cd-timeline-block">
+                    <div  class="cd-timeline-img text-primary background-primary-color" >
+                         <div data-id="14061_bk_76547_btn2_6"  data-myscs-pubftsize="pubftsz30" data-myscs-myiconst="iconup"   data-href='' data-btn-type="icon"  data-act="" class="pubcc js-my-btn-replace-set btn btn-default-my myiconfont  pubftsz30 iconup "   >  </div>                    </div>
+                <div  class=" bk_ftcc cd-timeline-content box-primary site-box-padding inner_myset_style inneritemstd autopadding30_1">
+                            <h3><lhz   data-id="14061_bk_76547_tt_6"  data-href='' data-pmkid="0" data-is_del="" class="js-my-replace-txt">系统进化树</lhz> </h3>
+                            <div class="timeimgsinr">
+                                <img class=" img-responsive center-block js-my-replace-img " src="./image/10.png"   data-must-crop="" data-myimg-width="900" data-myimg-ration="192:128" data-id="14061_bk_76547_ig6"  data-href='' data-pmkid="0" data-is_del="" data-mb-show="" data-class="">                            </div>
+                            <span class="cd-date cd-date-one">
+                                <lhz   data-id="14061_bk_76547_ttt_6"  data-href='' data-pmkid="0" data-is_del="" class="js-my-replace-txt">任务六</lhz> 
+                           </span>
+                    </div>
+                <div class="clearfix"></div>        
+            </div>
+        
+                    <div class="cd-timeline-block">
+                    <div  class="cd-timeline-img text-primary background-primary-color" >
+                         <div data-id="14061_bk_76547_btn2_7"  data-myscs-pubftsize="pubftsz30" data-myscs-myiconst="iconup"   data-href='' data-btn-type="icon"  data-act="" class="pubcc js-my-btn-replace-set btn btn-default-my myiconfont  pubftsz30 iconup "   >  </div>                    </div>
+                <div  class="pull-right bk_ftcc cd-timeline-content box-primary site-box-padding inner_myset_style inneritemstd autopadding30_1">
+                            <h3><lhz   data-id="14061_bk_76547_tt_7"  data-href='' data-pmkid="0" data-is_del="" class="js-my-replace-txt">氨基酸序列logo图</lhz> </h3>
+                            <div class="timeimgsinr">
+                                <img class=" img-responsive center-block js-my-replace-img " src="./image/11.png"   data-must-crop="" data-myimg-width="900" data-myimg-ration="192:128" data-id="14061_bk_76547_ig7"  data-href='' data-pmkid="0" data-is_del="" data-mb-show="" data-class="">                            </div>
+                            <span class="cd-date cd-date-two">
+                                <lhz   data-id="14061_bk_76547_ttt_7"  data-href='' data-pmkid="0" data-is_del="" class="js-my-replace-txt">任务七</lhz> 
+                           </span>
+                    </div>
+                <div class="clearfix"></div>        
+            </div>
+        
+                    <div class="cd-timeline-block">
+                    <div  class="cd-timeline-img text-primary background-primary-color" >
+                         <div data-id="14061_bk_76547_btn2_8"  data-myscs-pubftsize="pubftsz30" data-myscs-myiconst="iconup"   data-href='' data-btn-type="icon"  data-act="" class="pubcc js-my-btn-replace-set btn btn-default-my myiconfont  pubftsz30 iconup "   >  </div>                    </div>
+                <div  class=" bk_ftcc cd-timeline-content box-primary site-box-padding inner_myset_style inneritemstd autopadding30_1">
+                            <h3><lhz   data-id="14061_bk_76547_tt_8"  data-href='' data-pmkid="0" data-is_del="" class="js-my-replace-txt">全球措施分析</lhz> </h3>
+                            <div class="timeimgsinr">
+                                <img class=" img-responsive center-block js-my-replace-img " src="./image/12.png"   data-must-crop="" data-myimg-width="900" data-myimg-ration="192:128" data-id="14061_bk_76547_ig8"  data-href='' data-pmkid="0" data-is_del="" data-mb-show="" data-class="">                            </div>
+                            <span class="cd-date cd-date-one">
+                                <lhz   data-id="14061_bk_76547_ttt_8"  data-href='' data-pmkid="0" data-is_del="" class="js-my-replace-txt">任务八</lhz> 
+                           </span>
+                    </div>
+                <div class="clearfix"></div>        
+            </div>
+        
+                    
+        
+                      
+            </div>
+        
+        
+            
+    </div>
+</div>        </div>    
+    </div>
+
+ 
+          <!--bkoutstart-->
+<div id="bk_76548" data-mkid="0" data-mix-mkbkid="0_bk_76548" data-cover="https://cdn.vipcom.cc/Public/image/block/sg_a.jpg?31" 
+         data-name="简约时尚图文列表"
+         data-file-path="Block/Singel/sg_a"
+         data-bid="76548"
+         data-order="3"
+         data-use-type=""
+         data-vip-level="1"
+         class="blockpos cc_bgcc_bak js-my-pblock autopd-bt-100"
+         style="background-image:url();margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px;"  data-bgsrc="null" data-id="14061_bk_76548_bg"  data-href='' data-pmkid="0" data-img-type="css" data-is_del="" data-mb-show=""  data-class=""
+         data-hide="1" 
+         data-hide-exp=""
+         data-hide-status="0"
+         data-align="center"
+         >
+        <!--bkoutend-->
+        <!--bkoutstart-->
+                <!--bkoutend-->
+                
+                <div style="display:none;" class="btn_set_cc btn_set_bgcc"  data-mypop-data="{bkbgcc:{def:'#fff',type:'color',title:'内框背景色'}}" ></div>
+                
+        <div style="display:none;" class="btn_set_cc btn_set_ftcc"  data-mypop-data="{intro:{type:'intro',title:'注：如果您给目标单独设置了颜色，以下设置将没有效果'},bkftcc:{def:'bk_ftcc',data:[{s:'黑色',v:'bk_ftcc'},{s:'白色',v:'wt_ftcc'},{s:'灰色',v:'gray_ftcc'},{s:'自动主题色',v:'pubcc'}],type:'tag_select',title:'内框字体颜色'}}" ></div>
+        
+                <div style="display:none;" class="val_my_outline"  data-val="inneritemstd autopadding30_1" ></div>
+                <div style="display:none;" class="btn_set_imgrt"  data-mypop-data="{bkimgrt:{def:'66',data:[{s:'100:100(正方图)',v:'100'},{s:'100:66(横图)',v:'66'},{s:'100:56(横图)',v:'56'},{s:'100:134(竖图)',v:'134'},{s:'100:150(竖图)',v:'150'},{s:'100:200(竖图)',v:'200'},{s:'无比例约束，请自行裁剪统一比例图片，比例不统一版式可能错乱',v:''}],type:'tag_select',title:'图片宽高比'}}" >fixedimgboxdiv_std fixedimgboxdiv_s66</div>
+                <!--bkoutstart-->
+                  <div style="" class=" bktitbox container autopd-vt-bktit text-center" >
+             <h1><lhz   data-id="14061_bk_76548_bktt_"  data-href='' data-pmkid="0" data-is_del="" class="js-my-replace-txt">模型分析</lhz></h1>
+             <p><lhz  style="display:none;" data-id="14061_bk_76548_bkttdp_" data-pmkid="0" data-is_del="1" class="js-my-replace-txt js-my-hide-item"></lhz></p>
+          </div>
+                <!--bkoutend-->
+        <!--bkoutstart-->
+        
+        <div id="bk_76548_blockrendbox" class="blockrendbox" >  <!--bkoutend-->
+            <style>
+ @media (min-width: 600px) {
+ 	.clearpc3{
+ 		clear:both;
+ 	}
+ 	.clearmb2{
+ 		display:none;
+ 	}
+ }
+ @media (max-width: 600px) {
+ 	.clearpc3{
+ 		display:none;
+ 	}
+ 	.clearmb2{
+ 		clear:both;
+ 	}
+ }
+</style>
+<!--blockname sg 一行三个图文框的列表 blocknameend-->
+<div class="container  btn_set_data" data-a="" data-stitle="特殊调整(文字)"  data-mypop-data="{bkfshow:{data:[{s:'显示副标题',v:'s'},{s:'隐藏副标题',v:'h'}],def:'s',type:'tag_select',title:'副标题'} ,bkagn:{data:[{s:'左对齐',v:'left'},{s:'居中',v:'center'},{s:'向右',v:'right'}],def:'left',type:'tag_select',title:'文字对齐'}}" >
+   <div class="row inner_set_num" data-key="lpk" data-lp-num="9" data-lp-title="相册数量">
+            <div class="outitemstd autopadding15 col-md-4 col-xs-6" >
+        <div   class="inner_myset_style inneritemstd autopadding30_1">  
+          <div class="fixedimgboxdiv_std fixedimgboxdiv_s66">  
+          <img class=" img-responsive center-block js-my-replace-img " src="./image/13.png"   data-must-crop="" data-myimg-width="800" data-myimg-ration="100:100" data-id="14061_bk_76548_ig_1"  data-href='' data-pmkid="0" data-is_del="" data-mb-show="" data-class="" style="max-width: 100%;max-height: 100%;">          </div>  
+          <h4  style="text-align:left;;padding-bottom:0px;margin-bottom:5px;" class="bk_ftcc">
+             <lhz   data-id="14061_bk_76548_tt_1"  data-href='' data-pmkid="0" data-is_del="" class="js-my-replace-txt">训练结果</lhz>          </h4>
+
+                  </div>
+      </div>
+                        <div class="outitemstd autopadding15 col-md-4 col-xs-6" >
+        <div   class="inner_myset_style inneritemstd autopadding30_1">  
+          <div class="fixedimgboxdiv_std fixedimgboxdiv_s66">  
+          <img class=" img-responsive center-block js-my-replace-img " src="./image/14.png"   data-must-crop="" data-myimg-width="800" data-myimg-ration="100:100" data-id="14061_bk_76548_ig_2"  data-href='' data-pmkid="0" data-is_del="" data-mb-show="" data-class="" style="max-width: 100%;max-height: 100%;">          </div>  
+          <h4  style="text-align:left;;padding-bottom:0px;margin-bottom:5px;" class="bk_ftcc">
+             <lhz   data-id="14061_bk_76548_tt_2"  data-href='' data-pmkid="0" data-is_del="" class="js-my-replace-txt">病毒序列的louvain聚类</lhz>          </h4>
+                  </div>
+      </div>
+                  <div class="clearmb2"></div>
+                  <div class="outitemstd autopadding15 col-md-4 col-xs-6" >
+        <div   class="inner_myset_style inneritemstd autopadding30_1">  
+          <div class="fixedimgboxdiv_std fixedimgboxdiv_s66">  
+          <img class=" img-responsive center-block js-my-replace-img " src="./image/15.png"   data-must-crop="" data-myimg-width="800" data-myimg-ration="100:100" data-id="14061_bk_76548_ig_3"  data-href='' data-pmkid="0" data-is_del="" data-mb-show="" data-class="" style="max-width: 100%;max-height: 100%;">          </div>  
+          <h4  style="text-align:left;;padding-bottom:0px;margin-bottom:5px;" class="bk_ftcc">
+             <lhz   data-id="14061_bk_76548_tt_3"  data-href='' data-pmkid="0" data-is_del="" class="js-my-replace-txt">病毒序列的leiden聚类</lhz>          </h4>
+                  </div>
+      </div>
+            <div class="clearpc3"></div>
+                        <div class="outitemstd autopadding15 col-md-4 col-xs-6" style="width: 50%;" >
+        <div   class="inner_myset_style inneritemstd autopadding30_1">  
+          <div class="fixedimgboxdiv_std fixedimgboxdiv_s66">  
+          <img class=" img-responsive center-block js-my-replace-img " src="./image/16.png"   data-must-crop="" data-myimg-width="800" data-myimg-ration="100:100" data-id="14061_bk_76548_ig_4"  data-href='' data-pmkid="0" data-is_del="" data-mb-show="" data-class="" style="max-width: 100%;max-height: 100%; margin-top: 14%;">          </div>  
+          <h4  style="text-align:left;;padding-bottom:0px;margin-bottom:5px;" class="bk_ftcc">
+             <lhz   data-id="14061_bk_76548_tt_4"  data-href='' data-pmkid="0" data-is_del="" class="js-my-replace-txt">病毒的国家分布</lhz>          </h4>
+
+                  </div>
+      </div>
+                  <div class="clearmb2"></div>
+                  <div class="outitemstd autopadding15 col-md-4 col-xs-6"  style="width: 50%;">
+        <div   class="inner_myset_style inneritemstd autopadding30_1">  
+          <div class="fixedimgboxdiv_std fixedimgboxdiv_s66">  
+          <img class=" img-responsive center-block js-my-replace-img " src="./image/17.png"   data-must-crop="" data-myimg-width="800" data-myimg-ration="100:100" data-id="14061_bk_76548_ig_5"  data-href='' data-pmkid="0" data-is_del="" data-mb-show="" data-class="" style="margin-top: 14%;">          </div>  
+          <h4  style="text-align:left;;padding-bottom:0px;margin-bottom:5px;" class="bk_ftcc">
+             <lhz   data-id="14061_bk_76548_tt_5"  data-href='' data-pmkid="0" data-is_del="" class="js-my-replace-txt">病毒的大洲分布</lhz>          </h4>
+                  </div>
+      </div>
+                        <div class="outitemstd autopadding15 col-md-4 col-xs-6" style="width: 50%;">
+        <div   class="inner_myset_style inneritemstd autopadding30_1">  
+          <div class="fixedimgboxdiv_std fixedimgboxdiv_s66">  
+          <img class=" img-responsive center-block js-my-replace-img " src="./image/18.png"   data-must-crop="" data-myimg-width="800" data-myimg-ration="100:100" data-id="14061_bk_76548_ig_6"  data-href='' data-pmkid="0" data-is_del="" data-mb-show="" data-class="" style="margin-top: 14%;">          </div>  
+          <h4  style="text-align:left;;padding-bottom:0px;margin-bottom:5px;" class="bk_ftcc">
+             <lhz   data-id="14061_bk_76548_tt_6"  data-href='' data-pmkid="0" data-is_del="" class="js-my-replace-txt">louvin第0簇的大洲分布</lhz>          </h4>
+                  </div>
+      </div>
+      <div class="outitemstd autopadding15 col-md-4 col-xs-6" style="width: 50%;">
+        <div   class="inner_myset_style inneritemstd autopadding30_1">  
+          <div class="fixedimgboxdiv_std fixedimgboxdiv_s66">  
+          <img class=" img-responsive center-block js-my-replace-img " src="./image/19.png"   data-must-crop="" data-myimg-width="800" data-myimg-ration="100:100" data-id="14061_bk_76548_ig_6"  data-href='' data-pmkid="0" data-is_del="" data-mb-show="" data-class="" style="margin-top: 14%;">          </div>  
+          <h4  style="text-align:left;;padding-bottom:0px;margin-bottom:5px;" class="bk_ftcc">
+             <lhz   data-id="14061_bk_76548_tt_6"  data-href='' data-pmkid="0" data-is_del="" class="js-my-replace-txt">louvin第0簇的国家分布</lhz>          </h4>
+                  </div>
+      </div>
+      <div class="outitemstd autopadding15 col-md-4 col-xs-6" >
+        <div   class="inner_myset_style inneritemstd autopadding30_1">  
+          <div class="fixedimgboxdiv_std fixedimgboxdiv_s66">  
+          <img class=" img-responsive center-block js-my-replace-img " src="./image/20.png"  data-must-crop="" data-myimg-width="800" data-myimg-ration="100:100" data-id="14061_bk_76548_ig_6"  data-href='' data-pmkid="0" data-is_del="" data-mb-show="" data-class="">          </div>  
+          <h4  style="text-align:left;;padding-bottom:0px;margin-bottom:5px;" class="bk_ftcc">
+             <lhz   data-id="14061_bk_76548_tt_6"  data-href='' data-pmkid="0" data-is_del="" class="js-my-replace-txt">病毒采样的年份分布</lhz>          </h4>
+
+                  </div>
+      </div>
+      <div class="outitemstd autopadding15 col-md-4 col-xs-6" >
+        <div   class="inner_myset_style inneritemstd autopadding30_1">  
+          <div class="fixedimgboxdiv_std fixedimgboxdiv_s66">  
+          <img class=" img-responsive center-block js-my-replace-img " src="./image/21.png"   data-must-crop="" data-myimg-width="800" data-myimg-ration="100:100" data-id="14061_bk_76548_ig_6"  data-href='' data-pmkid="0" data-is_del="" data-mb-show="" data-class="">          </div>  
+          <h4  style="text-align:left;;padding-bottom:0px;margin-bottom:5px;" class="bk_ftcc">
+             <lhz   data-id="14061_bk_76548_tt_6"  data-href='' data-pmkid="0" data-is_del="" class="js-my-replace-txt">氨基酸序列突变排名（前10名）</lhz>          </h4>
+
+                  </div>
+      </div>
+      <div class="outitemstd autopadding15 col-md-4 col-xs-6" >
+        <div   class="inner_myset_style inneritemstd autopadding30_1">  
+          <div class="fixedimgboxdiv_std fixedimgboxdiv_s66">  
+          <img class=" img-responsive center-block js-my-replace-img " src="./image/22.png"   data-must-crop="" data-myimg-width="800" data-myimg-ration="100:100" data-id="14061_bk_76548_ig_6"  data-href='' data-pmkid="0" data-is_del="" data-mb-show="" data-class="">          </div>  
+          <h4  style="text-align:left;;padding-bottom:0px;margin-bottom:5px;" class="bk_ftcc">
+             <lhz   data-id="14061_bk_76548_tt_6"  data-href='' data-pmkid="0" data-is_del="" class="js-my-replace-txt">XBB氨基酸序列语义变化与百分位（部分）</lhz>          </h4>
+
+                  </div>
+      </div>
+      <div class="outitemstd autopadding15 col-md-4 col-xs-6" >
+        <div   class="inner_myset_style inneritemstd autopadding30_1">  
+          <div class="fixedimgboxdiv_std fixedimgboxdiv_s66">  
+          <img class=" img-responsive center-block js-my-replace-img " src="./image/23.png"   data-must-crop="" data-myimg-width="800" data-myimg-ration="100:100" data-id="14061_bk_76548_ig_6"  data-href='' data-pmkid="0" data-is_del="" data-mb-show="" data-class="" style="max-width: 100%;max-height: 100%;">          </div>  
+          <h4  style="text-align:left;;padding-bottom:0px;margin-bottom:5px;" class="bk_ftcc">
+             <lhz   data-id="14061_bk_76548_tt_6"  data-href='' data-pmkid="0" data-is_del="" class="js-my-replace-txt">病毒序列采样年份聚类图（Evolocity）</lhz>          </h4>
+
+                  </div>
+      </div>
+      
+                  <div class="clearmb2"></div>
+                  <div class="outitemstd autopadding15 col-md-4 col-xs-6" >
+        <div   class="inner_myset_style inneritemstd autopadding30_1">  
+          <div class="fixedimgboxdiv_std fixedimgboxdiv_s66">  
+          <img class=" img-responsive center-block js-my-replace-img " src="./image/24.png"   data-must-crop="" data-myimg-width="800" data-myimg-ration="100:100" data-id="14061_bk_76548_ig_9"  data-href='' data-pmkid="0" data-is_del="" data-mb-show="" data-class="">          </div>  
+          <h4  style="text-align:left;;padding-bottom:0px;margin-bottom:5px;" class="bk_ftcc">
+             <lhz   data-id="14061_bk_76548_tt_9"  data-href='' data-pmkid="0" data-is_del="" class="js-my-replace-txt">病毒序列大洲分布聚类图（Evolocity）</lhz>          </h4>
+                  </div>
+      </div>
+      <div class="outitemstd autopadding15 col-md-4 col-xs-6" >
+        <div   class="inner_myset_style inneritemstd autopadding30_1">  
+          <div class="fixedimgboxdiv_std fixedimgboxdiv_s66">  
+          <img class=" img-responsive center-block js-my-replace-img " src="./image/25.png"   data-must-crop="" data-myimg-width="800" data-myimg-ration="100:100" data-id="14061_bk_76548_ig_6"  data-href='' data-pmkid="0" data-is_del="" data-mb-show="" data-class="" style="max-width: 100%;max-height: 100%;">          </div>  
+          <h4  style="text-align:left;;padding-bottom:0px;margin-bottom:5px;" class="bk_ftcc">
+             <lhz   data-id="14061_bk_76548_tt_6"  data-href='' data-pmkid="0" data-is_del="" class="js-my-replace-txt">ESM2模型病毒采样年份聚类图（Evolocity）</lhz>          </h4>
+
+                  </div>
+      </div>
+      <div class="outitemstd autopadding15 col-md-4 col-xs-6" >
+        <div   class="inner_myset_style inneritemstd autopadding30_1">  
+          <div class="fixedimgboxdiv_std fixedimgboxdiv_s66">  
+          <img class=" img-responsive center-block js-my-replace-img " src="./image/26.png"   data-must-crop="" data-myimg-width="800" data-myimg-ration="100:100" data-id="14061_bk_76548_ig_6"  data-href='' data-pmkid="0" data-is_del="" data-mb-show="" data-class="" style="max-width: 100%;max-height: 100%;">          </div>  
+          <h4  style="text-align:left;;padding-bottom:0px;margin-bottom:5px;" class="bk_ftcc">
+             <lhz   data-id="14061_bk_76548_tt_6"  data-href='' data-pmkid="0" data-is_del="" class="js-my-replace-txt">病毒序列的采样年份进化流线图</lhz>          </h4>
+
+                  </div>
+      </div>
+      <div class="outitemstd autopadding15 col-md-4 col-xs-6" style="width: 66.5%;">
+        <div   class="inner_myset_style inneritemstd autopadding30_1">  
+          <div class="fixedimgboxdiv_std fixedimgboxdiv_s66" style="padding-top: 29%;">  
+          <img class=" img-responsive center-block js-my-replace-img " src="./image/27.png"   data-must-crop="" data-myimg-width="800" data-myimg-ration="100:100" data-id="14061_bk_76548_ig_6"  data-href='' data-pmkid="0" data-is_del="" data-mb-show="" data-class="" style="max-width: 100%;max-height: 100%;">          </div>  
+          <h4  style="text-align:left;;padding-bottom:0px;margin-bottom:5px;" class="bk_ftcc">
+             <lhz   data-id="14061_bk_76548_tt_6"  data-href='' data-pmkid="0" data-is_del="" class="js-my-replace-txt">根节点和终端节点的终端状态</lhz>          </h4>
+
+                  </div>
+      </div>
+            <div class="clearpc3"></div>
+                     </div>
+</div>        </div>    
+    </div>
+
+ 
+          <!--bkoutstart-->
+<div id="bk_76549" data-mkid="0" data-mix-mkbkid="0_bk_76549" data-cover="https://cdn.vipcom.cc/Public/image/block/bt.png?31" 
+         data-name="底部居中"
+         data-file-path="Block/Bottom/bt"
+         data-bid="76549"
+         data-order=""
+         data-use-type="bt"
+         data-vip-level="0"
+         class="blockpos cc_bgcc_bak js-my-pblock "
+         style="background-image:url();"  data-bgsrc="null" data-id="14061_bk_76549_bg"  data-href='' data-pmkid="0" data-img-type="css" data-is_del="" data-mb-show=""  data-class=""
+         data-hide="0" 
+         data-hide-exp=""
+         data-hide-status="0"
+         data-align="center"
+         >
+        <!--bkoutend-->
+        <!--bkoutstart-->
+                <!--bkoutend-->
+                
+                <div style="display:none;" class="btn_set_cc btn_set_bgcc"  data-mypop-data="{bkbgcc:{def:'rgb(55, 60, 56)',type:'color',title:'内框背景色'}}" ></div>
+                
+        <div style="display:none;" class="btn_set_cc btn_set_ftcc"  data-mypop-data="{intro:{type:'intro',title:'注：如果您给目标单独设置了颜色，以下设置将没有效果'},bkftcc:{def:'wt_ftcc',data:[{s:'黑色',v:'bk_ftcc'},{s:'白色',v:'wt_ftcc'},{s:'灰色',v:'gray_ftcc'},{s:'自动主题色',v:'pubcc'}],type:'tag_select',title:'内框字体颜色'}}" ></div>
+        
+                <!--bkoutstart-->
+                <!--bkoutend-->
+        <!--bkoutstart-->
+        
+        <div id="bk_76549_blockrendbox" class="blockrendbox" >  <!--bkoutend-->
+            <!--blockname 底部居中 blocknameend-->
+ <div style="background-color:rgb(55, 60, 56);" class="bk_bgcc">
+<div id="bk_bt" style="width:100%;padding:80px 0;" class="autovcenterpox text-center ">
+
+    <div class="center-block notsetblockbg">
+        <h3 class="wt_ftcc"><lhz   data-id="14061_bk_76549_tt_"  data-href='' data-pmkid="0" data-is_del="" class="js-my-replace-txt">&nbsp;基于结构和计算模型的新型冠状病毒分子进化模式研究</lhz></h3>
+        <p  class="wt_ftcc"><lhz   data-id="14061_bk_76549_ttdp_"  data-href='' data-pmkid="0" data-is_del="" class="js-my-replace-txt"><span>浙江省湖州市湖州师范学院&nbsp; 3153975892@qq.com</span></lhz></p>
+    </div>    
+    <div style="clear:both;"></div>
+</div>
+ </div>        </div>    
+    </div>
+
+ 
+        
+      
+    
+  <!--bkoutstart-->  
+  </body>
+  <!--bkoutend-->   
+    
+  <!--bkoutstart-->  
+  <!--set_include_clone_bt-->
+   
+   <link rel="stylesheet" type="text/css" href="./css/jquery-confirm.css?31?31">
+   <link rel="Stylesheet" type="text/css" href="./css/swiper-bundle.min.css?31">
+   
+   <!-- 图片弹出插件 -->
+  <script src="./js/baguetteBox.min.js"></script>
+  
+  <!-- kiss滚动动画css -->
+  <link rel="Stylesheet" type="text/css" href="./css/scrollanim.min.css?31">
+  
+  <script src="./js/swiper-bundle.min.js?31"></script>
+  <script src="./js/jquery.nav.js?31"></script>
+  
+  <!-- kiss滚动动画js -->
+ <script src="./js/scrollanim.js?31"></script>
+  
+ <!-- 懒加载  -->
+ <script src="./js/lazyload.min.js?31"></script>
+  
+    
+  <script>
+      $(function(){
+         //编辑模式下 
+         $('#preloader').fadeOut();
+        var my_pop_ope = new sl.app.my_pop_ope();
+	my_pop_ope.bind_event();
+
+        $('.js_up_totop').on('click',function(event) {
+          event.preventDefault();
+          $('html, body').animate({
+            scrollTop: 0
+          }, 600);
+          return false;
+        });
+        
+        $('#navbox').onePageNav();
+        $(window).on('scroll', function() {
+            if ($(window).scrollTop() > 80) {
+                $('.leftsaidtit').show();
+            } else {
+                $('.leftsaidtit').hide();
+            }
+        });
+        
+        $(".js_more_nav_show").hover(function(){
+           $(".jsmynavhide").show();
+        },function(){
+       //    $(".jsmynavhide").hide();
+        });
+        $(".jshidenavmore").hover(function(){
+           $(".jsmynavhide").hide();
+        },function(){
+           
+        });
+        $("#navbox").hover(function(){
+
+        },function(){
+           $(".jsmynavhide").hide();
+        });
+        setTimeout(function(){
+            $("[data-kui-anim]").css('opacity',1);
+        },10000);
+        
+        //公共js定位到模块
+        $('.nav_fixed_pos_bak').click(function(){
+            var tid=$(this).attr('href');
+            if($(tid).length==0||$(tid)==undefined){
+                return;
+            }
+            $('html, body').animate({
+              scrollTop: $(tid).offset().top
+            }, 600);
+        })  
+          
+        baguetteBox.run('.allmyimgs', {
+        captions: function(element) {
+            // `this` == Array of current gallery items
+                    return element.getElementsByTagName('img')[0].alt;
+                }
+        });
+    //   $.tip_reload();
+       var lazyLoadInstance = new LazyLoad({
+            // Your custom settings go here
+          });
+          
+       if($("#iconckbtbox").length>0){
+       	let iconckbtbox = document.querySelector("#iconckbtbox");
+           iconckbtbox.addEventListener("click",function(){
+               if( iconckbtbox.classList.contains("activecs")){
+               	iconckbtbox.classList.remove("activecs");
+               }else{
+               	iconckbtbox.classList.add("activecs");
+               }
+           });
+       }
+       
+          kissuiScrollAnim.setOptions({ 
+            'autoReset': false,
+            'triggerOnInit': false
+          });
+          if (self != top) {
+        	  $(".beian_a").remove();
+        	  $(".js_user_report").remove();
+          }
+          
+          if($(".bold_hover").length>0){
+        	  var now_href=window.location.href;
+        	  now_href=now_href.replace(/^htt.+:\/\/[^\/]+\//, "/");
+        	  
+        	  $(".bold_hover").each(function(){
+        		 var this_href=$(this).attr('href');
+        		 this_href=this_href.replace(/^htt.+:\/\/[^\/]+\//, "/");
+        		 if(this_href==now_href){
+        			 var nowcc=$(this).css('color');
+        			 $(this).css('border-bottom','1px solid '+nowcc);
+        			 $(this).css('padding-bottom','2px');
+        		 } 
+        	  });
+          }
+          
+          if($(".myfksubnav[data-target_type='shopcar']").length>0){
+		  		var spcar_num=localStorage.getItem('spcar_num');
+		  		if(spcar_num!=''&&spcar_num!=undefined){
+		  			var tspcar=$(".myfksubnav[data-target_type='shopcar']");
+		  			var icon='';
+		  			if(tspcar.find('.myiconfont').length>0){
+		  				icon='<i class="'+tspcar.find('.myiconfont').attr('class')+'"></i>'
+		  			}
+			    	tspcar.html(icon+' '+tspcar.attr('data-role')+'('+spcar_num+')');
+		  		}
+		    }
+      });
+  </script>    
+  
+  
+  <!--bkoutend-->  
+  
+<!--bkoutstart-->    
+  
+<div id="my_data_box_topmsg_bak" style="display:none;"></div>
+
+		
+
+<div data-id="14061" 
+	id="mypublic_bottom_edit" 
+	style="width: 100%;
+	height: 60px;
+	line-height: 60px;
+	background-color: #333;
+	color: #ececec;
+	font-size: 14px;
+	text-align: right;">
+	                
+		<a href="javascript://" style="color:#ececec;font-size: 12px;" class="js_user_id_check_person">
+					</a>
+                
+		&nbsp;&nbsp;
+	<a style="color:#ececec;font-size:12px;" href="https://vipcom.cc">&nbsp; <b style="color: #e63d4f;font-size: 16px;"> ♥ </b> 超级单页 - 简单好用的页面制作工具   &nbsp; </a>	&nbsp;&nbsp;
+	
+	
+	&nbsp;&nbsp;
+	
+	
+	&nbsp;&nbsp;&nbsp;
+</div>
+
+
+<div style="
+     position:fixed;
+     z-index:9999;
+     background-color:rgb(0,0,0);
+     box-shadow: 0 0 4px rgba(0, 0, 0, 0.55), 0 4px 8px rgba(0, 0, 0, 0.28);
+     color:#fff;
+     text-align:center;width: 50px;
+height: 50px;
+line-height: 50px;
+font-size: 16px;
+right: 15px;
+bottom: 33px;
+border-radius: 50%;
+display:none;
+cursor: pointer;" class="iconfont iconup1 js_up_totop leftsaidtit">
+</div>
+
+
+
+
+<link rel="stylesheet" type="text/css" href="https://at.alicdn.com/t/font_1519554_gr3baz0g5iw.css">
+
+<script type="text/javascript"  src="./js/jquery.topmsg.js?31"></script>
+<script type="text/javascript" src="./js/mypub_open.js?55?31"></script>
+<script type="text/javascript" src="./js/myatc_user.js?12?3167"></script>
+<script type="text/javascript" src="./js/my_pop_ope.js?31"></script>
+
+
+
+
+<div style="height:2px;overflow:hidden;position:absolute;bottom:-10px;">
+</div>
+
+<script src="./js/mXdfvexpg.js?31"></script>
+<script type="text/javascript" src="./js/mypub_open.js?55?31"></script>
+<script src="./js/jquery-confirm.js?31"></script>
+<script src="./js/jquery.topmsg.js?31"></script>
+
+
+<script type="text/javascript" src="./js/myopen_user.js?2abcd?31y7"></script>
+
+
+<script type="text/javascript">
+	$(function(){	
+		$('.js-myet-pop').click(function(){	
+			$.alert('<img src="'+$(this).attr('data-my-pop-src')+'">');
+		});
+	});
+</script>
+
+
+
+
+	<script type="text/javascript">
+		$(function(){
+			$.get('/home/mockup/view_add/id/14061_e94c4884-1686737503',{'at':easyh5s()},function(d){
+			});
+		});
+	</script>
+
+
+
+<script type="text/javascript">
+	$(function(){
+		setTimeout(function(){
+			$('.myjsloader').hide();
+		},6000);
+	});
+</script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?1007be82a2ad3c69e4764c86d825a4a2";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</html>
+<!--bkoutend--><div style="display:none"></div>
